@@ -32,6 +32,22 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
             this.maskedTextBox5 = new System.Windows.Forms.MaskedTextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.maskedTextBox4 = new System.Windows.Forms.MaskedTextBox();
@@ -49,22 +65,6 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -143,6 +143,177 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Dados Pessoais";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.SystemColors.Highlight;
+            this.button4.Location = new System.Drawing.Point(934, 372);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(124, 45);
+            this.button4.TabIndex = 31;
+            this.button4.Text = "Editar";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.SystemColors.Highlight;
+            this.button3.Location = new System.Drawing.Point(804, 372);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(124, 45);
+            this.button3.TabIndex = 30;
+            this.button3.Text = "Excluir";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.SystemColors.Highlight;
+            this.button2.Location = new System.Drawing.Point(674, 372);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(124, 45);
+            this.button2.TabIndex = 29;
+            this.button2.Text = "Salvar";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.Highlight;
+            this.button1.Location = new System.Drawing.Point(544, 372);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(124, 45);
+            this.button1.TabIndex = 28;
+            this.button1.Text = "Novo";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "AC",
+            "AL",
+            "AP",
+            "AM",
+            "BA",
+            "CE",
+            "DF",
+            "ES",
+            "GO",
+            "MA",
+            "MT",
+            "MS",
+            "MG",
+            "PA",
+            "PB",
+            "PR",
+            "PE",
+            "PI",
+            "RJ",
+            "RN",
+            "RS",
+            "RO",
+            "RR",
+            "SC",
+            "SP",
+            "SE",
+            "TO"});
+            this.comboBox1.Location = new System.Drawing.Point(635, 301);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(423, 28);
+            this.comboBox1.TabIndex = 27;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label15.Location = new System.Drawing.Point(574, 309);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(35, 20);
+            this.label15.TabIndex = 26;
+            this.label15.Text = "UF:";
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(104, 306);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(450, 26);
+            this.textBox8.TabIndex = 25;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label14.Location = new System.Drawing.Point(19, 306);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(63, 20);
+            this.label14.TabIndex = 24;
+            this.label14.Text = "Cidade:";
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(635, 255);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(423, 26);
+            this.textBox7.TabIndex = 23;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label13.Location = new System.Drawing.Point(574, 258);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(55, 20);
+            this.label13.TabIndex = 22;
+            this.label13.Text = "Bairro:";
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(104, 255);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(450, 26);
+            this.textBox6.TabIndex = 21;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label12.Location = new System.Drawing.Point(19, 261);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(84, 20);
+            this.label12.TabIndex = 20;
+            this.label12.Text = "Complem.:";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(425, 210);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(450, 26);
+            this.textBox5.TabIndex = 19;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label11.Location = new System.Drawing.Point(342, 216);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(82, 20);
+            this.label11.TabIndex = 18;
+            this.label11.Text = "Endereço:";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(952, 209);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(106, 26);
+            this.textBox4.TabIndex = 17;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label10.Location = new System.Drawing.Point(881, 215);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(65, 20);
+            this.label10.TabIndex = 16;
+            this.label10.Text = "Número";
             // 
             // maskedTextBox5
             // 
@@ -290,181 +461,10 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(965, 301);
+            this.tabPage2.Size = new System.Drawing.Size(1071, 441);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Consulta";
             this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(952, 209);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(106, 26);
-            this.textBox4.TabIndex = 17;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label10.Location = new System.Drawing.Point(881, 215);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(65, 20);
-            this.label10.TabIndex = 16;
-            this.label10.Text = "Número";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(425, 210);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(450, 26);
-            this.textBox5.TabIndex = 19;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label11.Location = new System.Drawing.Point(342, 216);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(82, 20);
-            this.label11.TabIndex = 18;
-            this.label11.Text = "Endereço:";
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(104, 255);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(450, 26);
-            this.textBox6.TabIndex = 21;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label12.Location = new System.Drawing.Point(19, 261);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(84, 20);
-            this.label12.TabIndex = 20;
-            this.label12.Text = "Complem.:";
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(635, 255);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(423, 26);
-            this.textBox7.TabIndex = 23;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label13.Location = new System.Drawing.Point(574, 258);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(55, 20);
-            this.label13.TabIndex = 22;
-            this.label13.Text = "Bairro:";
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(104, 306);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(450, 26);
-            this.textBox8.TabIndex = 25;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label14.Location = new System.Drawing.Point(19, 306);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(63, 20);
-            this.label14.TabIndex = 24;
-            this.label14.Text = "Cidade:";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label15.Location = new System.Drawing.Point(574, 309);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(35, 20);
-            this.label15.TabIndex = 26;
-            this.label15.Text = "UF:";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "AC",
-            "AL",
-            "AP",
-            "AM",
-            "BA",
-            "CE",
-            "DF",
-            "ES",
-            "GO",
-            "MA",
-            "MT",
-            "MS",
-            "MG",
-            "PA",
-            "PB",
-            "PR",
-            "PE",
-            "PI",
-            "RJ",
-            "RN",
-            "RS",
-            "RO",
-            "RR",
-            "SC",
-            "SP",
-            "SE",
-            "TO"});
-            this.comboBox1.Location = new System.Drawing.Point(635, 301);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(423, 28);
-            this.comboBox1.TabIndex = 27;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.SystemColors.Highlight;
-            this.button1.Location = new System.Drawing.Point(544, 372);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(124, 45);
-            this.button1.TabIndex = 28;
-            this.button1.Text = "Novo";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.SystemColors.Highlight;
-            this.button2.Location = new System.Drawing.Point(674, 372);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(124, 45);
-            this.button2.TabIndex = 29;
-            this.button2.Text = "Salvar";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.SystemColors.Highlight;
-            this.button3.Location = new System.Drawing.Point(804, 372);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(124, 45);
-            this.button3.TabIndex = 30;
-            this.button3.Text = "Excluir";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.SystemColors.Highlight;
-            this.button4.Location = new System.Drawing.Point(934, 372);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(124, 45);
-            this.button4.TabIndex = 31;
-            this.button4.Text = "Editar";
-            this.button4.UseVisualStyleBackColor = false;
             // 
             // Frmclientes
             // 
@@ -474,6 +474,7 @@
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.panel1);
             this.Name = "Frmclientes";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro de Clientes";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
